@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class StudentInfoManager {
 
 	public void printInfo(ArrayList<StudentVo> list, int idx) {
-		
 		System.out.print(list.get(idx).getName()+"\t");
 		System.out.print(list.get(idx).getKor()+"\t");
 		System.out.print(list.get(idx).getEng()+"\t");
